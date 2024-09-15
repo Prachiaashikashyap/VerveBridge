@@ -53,6 +53,7 @@ Player Birthplace Mapping: A geographic map highlighting where players were born
 Player Demographics: Interactive charts display the distribution of players by age, weight, and position across different teams.
 State Population Insights: A line graph that correlates player birth states with population estimates to analyze any trends.
 Customizable Filtering: Users can filter players by name, age range, and team to explore specific data points relevant to their analysis.
+
 Key Metrics
 Average Player Age: The average age of players across the selected team.
 Average Player Weight (lbs): The average weight of players, compared between New England and Philadelphia.
@@ -60,12 +61,15 @@ Player Birthplace Analysis: Summarizes the number of players from different citi
 Player Team Representation: Visual representation of players' statistics by team and position.
 Position Distribution: Pie chart of the distribution of players by position (e.g., QB, WR, DE, TE).
 Years Played: Highlights the number of years each player has played, offering insights into experience levels.
+
 Workflow
 Data Collection: The dataset includes player statistics such as age, weight, years played, team, and birthplace.
 Data Transformation: The data is cleaned and organized for use in Power BI. Relevant attributes (e.g., player age, weight, team, position) are extracted for visualization.
+
 Visualization Design: Using Power BI, the data is mapped and displayed in a range of visual formats, such as pie charts, bar graphs, and geographical maps.
 User Interaction: Filters are provided to enable dynamic changes to the dashboard, allowing users to explore different views and insights.
 Deployment: The final dashboard is deployed and shared, with interactive features allowing for real-time exploration.
+
 Technologies Used
 Power BI: Used for creating the interactive dashboard and visualizations.
 Microsoft Bing Maps: For geographic plotting of player birthplaces.
