@@ -94,3 +94,66 @@ Power BI: Used for creating the interactive dashboard and visualizations.
 Microsoft Bing Maps: For geographic plotting of player birthplaces.
 
 CSV/Excel Data: Player statistics imported and processed for analysis.
+
+
+---
+
+Football Scenario Data Analysis
+This repository provides a comprehensive analysis of football scenarios using various metrics and visualization techniques to offer insights into key decisions made during football plays. The data is analyzed to observe trends, confidences, and judgments in different football scenarios, such as passing, running, and kicking.
+
+Overview
+The Football Scenario Data Analysis focuses on visualizing and interpreting different football actions (antecedents) to understand decision-making patterns and their outcomes. The analysis includes metrics like trusted judgments, unit states, and antecedent confidence scores to gain insights into key football actions like running, passing, punting, kicking a field goal, and more.
+
+Workflow
+Data Collection:
+Data is gathered from football scenarios, capturing various antecedents such as pass, run, punt, kneel down, and kick a field goal.
+
+Data Processing:
+The raw data is processed to extract valuable insights like trusted judgments, unit state statuses, and confidence scores related to each action. The data is segmented based on antecedents and unit IDs.
+
+Visualization:
+The processed data is visualized through various charts and graphs. Key visualizations include:
+
+Pie charts showing the distribution of trusted judgments by antecedents.
+Line graphs depicting the confidence over time for different football actions.
+Bar charts displaying the number of trusted judgments and original antecedents across multiple categories.
+Analysis:
+The analysis focuses on key football decisions, where the confidence and judgment of each scenario are evaluated. Trends are identified based on unit states and the confidence levels of each antecedent decision.
+
+Key Metrics
+1. Sum of Unit IDs by Antecedent:
+Pass: 35.9%
+Run: 30.9%
+Kick a Field Goal: 11.02%
+Punt: 11.02%
+Kneel Down: 2.32%
+Don’t Know / It Depends: 8.86%
+This metric shows the proportion of unit IDs associated with different antecedent decisions in football scenarios.
+
+2. Count of Trusted Judgments by Antecedent:
+Pass: 35.9%
+Run: 30.9%
+Kick a Field Goal: 11.02%
+Punt: 11.02%
+Kneel Down: 2.32%
+Don’t Know / It Depends: 8.86%
+This metric reveals the count of trusted judgments in various antecedent actions, highlighting which plays are trusted the most.
+
+3. Average of Trusted Judgments:
+6.11
+This metric represents the overall average of trusted judgments across all football actions and scenarios.
+4. Average of Antecedent Confidence:
+0.76
+The average confidence associated with each antecedent is analyzed, representing how confident decisions are during different football scenarios.
+5. Count of Trusted Judgments by Unit State:
+Finalized: 3,730
+Golden: 130
+The count of trusted judgments is broken down by unit state to show finalized decisions and golden state judgments.
+Visualizations
+The analysis is complemented with various visualizations:
+
+Pie Charts: Showing the distribution of antecedents and trusted judgments.
+Line Graphs: Tracking the confidence of judgments over time.
+Bar Charts: Highlighting the count of original antecedents and trusted judgments.
+Conclusion
+This analysis provides valuable insights into football scenario decisions, offering a breakdown of trusted judgments, confidence levels, and trends in decision-making. The goal is to improve understanding of key football actions, helping coaches and analysts make better-informed decisions based on data.
